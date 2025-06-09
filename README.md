@@ -1,9 +1,70 @@
-<h1 align="center">Hello, I'm CreeperStone72</h1>
-<h3 align="center">French, developer, dungeon master (in a dice-rolling way), player of games, he/him</h3>
+
+# Bienvenue, I'm CreeperStone72 !
 
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> </p>
+## 🎲 Who suis-je ?
+I'm a French full stack developer, I've been a code enthusiast for a decade and a half and a dungeon master for two thirds of that time !
 
 
-Generated using a [GitHub Profile ReadMe generator](https://rahuldkjain.github.io/gh-profile-readme-generator/)
+## 💻 Skills
+Courtesy of my curriculum, I've dabbled in many languages, from the most common ones like Java, Python and JavaScript (alongside its brethren HTML and CSS), to the downright niche and painful like Ada, Lisp, Prolog and *shiver* Smalltalk.
+
+When it comes to what I'm actually good at however, my list of skills include :
+
+### 🧮 Software development
+- ~~C / C++~~ (I know them, but they don't like me and I don't like them, so I keep away)
+    - Arduino
+- C#
+    - Unity
+- Java
+    - Android
+- Python
+
+### 🕸 Website development
+- CSS
+    - Bootstrap
+    - Tailwind
+- HTML
+- JavaScript / TypeScript
+    - Angular
+    - Express
+    - Node.js
+    - React
+- PHP
+
+### 💾 Database management
+- Firebase
+- MongoDB
+- MySQL
+- Neo4J
+- SQLite
+
+### 🛠 Other tools
+- Adobe
+    - After Effects
+    - PhotoShop
+    - Premiere Pro
+- Postman
+
+
+## 🔗 Links
+| *Work in progress* | *Inactive* | *Mostly inactive* |
+|:-:|:-:|:-:|
+| [![portfolio](https://img.shields.io/badge/my_portfolio-006700?style=for-the-badge&logo=react&logoColor=white)](https://creeperstone72.github.io/creeperstone72/) | [![bluesky](https://img.shields.io/badge/bluesky-0A66C2?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/creeperstone72.bsky.social) | [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/CreeperStone72)
+
+
+## 🖋 Fun facts !
+😄 Pronouns are he/him
+
+👩‍💻 I'm currently working on a lot of different stuff, with a proper release of my portfolio website being at the forefront of all my side projects.
+
+🧠 I'm currently learning Vue.js, with plans to learn to use Django, Flask, Laravel, Symfony and .NET, along many, *many* other things (I've got a to-do list *and* a to-learn list, and they're both longer than my arm).
+
+💬 Ask me about Journey of the Marked, my D&D magnum opus. Be warned : I *will* ramble.
+
+🎥 My favorite movie is Scarface, my favorite TV show is Doctor Who, and my favorite anime is Steins;Gate.
+
+💿 My favorite band is Sabaton, but my favorite song is Florent Pagny's *Savoir aimer*.
+
+🎮 My favorite game franchise is Yakuza/Like a Dragon, although I'd still consider my favorite game to be PAYDAY 2.
+
