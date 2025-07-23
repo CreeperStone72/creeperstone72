@@ -1,0 +1,106 @@
+:root {
+    --primary-50: #f4faf3;
+    --primary-100: #e5f5e3;
+    --primary-200: #cce9c9;
+    --primary-300: #a3d79e;
+    --primary-400: #73bc6c;
+    --primary-500: #57b04f;
+    --primary-600: #3c8336;
+    --primary-700: #33672e;
+    --primary-800: #2b5328;
+    --primary-900: #254423;
+    --primary-950: #0e250e;
+
+    --secondary-50: #f6f7f6;
+    --secondary-100: #e3e5e2;
+    --secondary-200: #c8cbc4;
+    --secondary-300: #a5aa9e;
+    --secondary-400: #80877a;
+    --secondary-500: #5d6357;
+    --secondary-600: #50564b;
+    --secondary-700: #43473e;
+    --secondary-800: #383b34;
+    --secondary-900: #30332e;
+    --secondary-950: #191b18;
+
+    --success-50: #f5faeb;
+    --success-100: #e8f2d5;
+    --success-200: #d3e7af;
+    --success-300: #b5d680;
+    --success-400: #99c457;
+    --success-500: #719c35;
+    --success-600: #5e862a;
+    --success-700: #496724;
+    --success-800: #3c5222;
+    --success-900: #344720;
+    --success-950: #19260d;
+
+    --danger-50: #fff1f1;
+    --danger-100: #ffdfe0;
+    --danger-200: #ffc5c6;
+    --danger-300: #ff9d9f;
+    --danger-400: #ff6468;
+    --danger-500: #ff252a;
+    --danger-600: #ed151a;
+    --danger-700: #c80d11;
+    --danger-800: #a50f12;
+    --danger-900: #881417;
+    --danger-950: #4b0406;
+
+    --warning-50: #fdf7ef;
+    --warning-100: #fbecd9;
+    --warning-200: #f5d6b3;
+    --warning-300: #efba82;
+    --warning-400: #e79350;
+    --warning-500: #e07227;
+    --warning-600: #d35e23;
+    --warning-700: #af481f;
+    --warning-800: #8c3b20;
+    --warning-900: #71321d;
+    --warning-950: #3d180d;
+
+    --info-50: #f8f9fa;
+    --info-100: #f2f4f5;
+    --info-200: #e8ebec;
+    --info-300: #d5dadd;
+    --info-400: #bcc4c9;
+    --info-500: #a0aab2;
+    --info-600: #89939e;
+    --info-700: #76808b;
+    --info-800: #636b74;
+    --info-900: #525960;
+    --info-950: #363b3f;
+
+    --light-50: #f8f7f8;
+    --light-100: #efefef;
+    --light-200: #dcdbdc;
+    --light-300: #bebbbd;
+    --light-400: #9a9699;
+    --light-500: #9a9699;
+    --light-600: #676265;
+    --light-700: #545053;
+    --light-800: #484446;
+    --light-900: #3e3c3d;
+    --light-950: #292829;
+
+    --dark-50: #292829;
+    --dark-100: #3e3c3d;
+    --dark-200: #484446;
+    --dark-300: #545053;
+    --dark-400: #676265;
+    --dark-500: #9a9699;
+    --dark-600: #9a9699;
+    --dark-700: #bebbbd;
+    --dark-800: #dcdbdc;
+    --dark-900: #efefef;
+    --dark-950: #f8f7f8;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div.app {
+    display: flex;
+}

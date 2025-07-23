@@ -19,6 +19,7 @@ When it comes to what I'm actually good at however, my list of skills include :
 - Java
     - Android
 - Python
+- React Native
 
 ### 🕸 Website development
 - CSS
@@ -48,9 +49,9 @@ When it comes to what I'm actually good at however, my list of skills include :
 
 
 ## 🔗 Links
-| *Work in progress* | *Inactive* | *Mostly inactive* |
-|:-:|:-:|:-:|
-| [![portfolio](https://img.shields.io/badge/my_portfolio-006700?style=for-the-badge&logo=react&logoColor=white)](https://creeperstone72.github.io/creeperstone72/) | [![bluesky](https://img.shields.io/badge/bluesky-0A66C2?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/creeperstone72.bsky.social) | [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/CreeperStone72)
+|                                                                        *Work in progress*                                                                         |                                                                           *Inactive*                                                                            |                                                            *Mostly inactive*                                                             |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------:|
+| [![portfolio](https://img.shields.io/badge/my_portfolio-006700?style=for-the-badge&logo=react&logoColor=white)](https://creeperstone72.github.io/creeperstone72/) | [![bluesky](https://img.shields.io/badge/bluesky-0A66C2?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/creeperstone72.bsky.social) | [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/CreeperStone72) |
 
 
 ## 🖋 Fun facts !
