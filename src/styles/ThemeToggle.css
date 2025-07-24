@@ -1,6 +1,6 @@
 button.theme-toggle {
-    width: 3em;
-    height: 3em;
+    width: 2.5rem;
+    height: 2.5rem;
     padding: 0;
     display: flex;
     align-items: center;
@@ -16,7 +16,7 @@ button.theme-toggle:hover {
 }
 
 button.theme-toggle * {
-    width: 2em;
-    height: 2em;
+    width: 1.75rem;
+    height: 1.75rem;
     color: white;
 }

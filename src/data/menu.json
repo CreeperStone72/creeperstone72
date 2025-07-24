@@ -1,0 +1,64 @@
+[
+    {
+        "name": "irln",
+        "root": "/loic-dornel",
+        "routes": [
+            {
+                "key": "about me",
+                "path": ""
+            },
+            {
+                "key": "resume",
+                "path": "/cv"
+            },
+            {
+                "key": "portfolio",
+                "path": "/portfolio"
+            },
+            {
+                "key": "socials",
+                "path": "/socials"
+            }
+        ]
+    },
+    {
+        "name": "cs72",
+        "root": "/creeperstone72",
+        "routes": [
+            {
+                "key": "about me",
+                "path": ""
+            },
+            {
+                "key": "blog",
+                "path": "/blog"
+            },
+            {
+                "key": "socials",
+                "path": "/socials"
+            }
+        ]
+    },
+    {
+        "name": "rtdm",
+        "root": "/rooted-dm",
+        "routes": [
+            {
+                "key": "about me",
+                "path": ""
+            },
+            {
+                "key": "experience",
+                "path": "/experience"
+            },
+            {
+                "key": "jotm",
+                "path": "/journey-of-the-marked"
+            },
+            {
+                "key": "socials",
+                "path": "/socials"
+            }
+        ]
+    }
+]

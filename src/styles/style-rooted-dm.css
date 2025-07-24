@@ -1,0 +1,25 @@
+:root {
+    --primary-rtdm-50: #fbf5ff;
+    --primary-rtdm-100: #f5e8ff;
+    --primary-rtdm-200: #edd5ff;
+    --primary-rtdm-300: #deb4fe;
+    --primary-rtdm-400: #ca84fc;
+    --primary-rtdm-500: #bd65f8;
+    --primary-rtdm-600: #a333ea;
+    --primary-rtdm-700: #8d22ce;
+    --primary-rtdm-800: #7721a8;
+    --primary-rtdm-900: #611c87;
+    --primary-rtdm-950: #430764;
+
+    --secondary-rtdm-50: #f9f8f7;
+    --secondary-rtdm-100: #f2efee;
+    --secondary-rtdm-200: #e8e3e0;
+    --secondary-rtdm-300: #d8cec9;
+    --secondary-rtdm-400: #c0b1a9;
+    --secondary-rtdm-500: #a59187;
+    --secondary-rtdm-600: #907c72;
+    --secondary-rtdm-700: #78665d;
+    --secondary-rtdm-800: #65564f;
+    --secondary-rtdm-900: #564b46;
+    --secondary-rtdm-950: #2d2622;
+}

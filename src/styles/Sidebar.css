@@ -1,11 +1,64 @@
 nav.sidebar {
-    height: 100vh;
+    height: calc(100vh - 2em);
     width: 15em;
     padding: 1em 2em;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav.sidebar > * {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+nav.sidebar #header a {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+}
+
+nav.sidebar #header a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+nav.sidebar #header a * {
+    color: white;
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+nav.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav.sidebar ul li {
+    padding: 0.5em 2em;
 }
 
 nav.sidebar a {
-    color: white;
     text-decoration: none;
+}
+
+@media (max-width: 900px) {
+    nav.sidebar {
+        width: calc(100vw - 4em);
+        position: absolute;
+        z-index: 99;
+    }
+
+    nav.sidebar.collapsed, nav.sidebar.collapsed * {
+        visibility: collapse;
+        display: none;
+    }
 }

@@ -1,24 +1,33 @@
-import {
-    HashRouter as Router,
-    Routes,
-    Route
-} from "react-router-dom";
+import {HashRouter as Router, Route, Routes} from "react-router-dom";
 import {Sidebar} from "./components";
-import {useTheme} from "./hooks";
+import {useBoolean, useDarkMode} from "usehooks-ts";
+import {GrMenu} from 'react-icons/gr';
 
 function App() {
-    const [theme,,] = useTheme();
+    const {isDarkMode} = useDarkMode();
+    const theme = isDarkMode ? 'dark' : 'light';
+    const {value, setTrue, setFalse} = useBoolean(true);
+
+    const style = {
+        backgroundColor: `var(--${theme}-200)`,
+        color: isDarkMode ? 'white' : 'black',
+        flex: 1,
+        height: '100vh'
+    };
 
     return (
         <Router>
             <div className='app'>
-                <Sidebar />
+                <Sidebar collapsed={value} onClose={setTrue} />
 
-                <Routes>
-                    <Route path='/about' element={<main style={{backgroundColor: `var(--${theme}-500)`}}>About me</main>} />
-                    <Route path='/contact' element={<main style={{backgroundColor: `var(--${theme}-500)`}}>Contact</main>} />
-                    <Route path='/' element={<main style={{backgroundColor: `var(--${theme}-500)`}}>Home</main>} />
-                </Routes>
+                <main {...{style}}>
+                    <GrMenu className='menu-button' style={{margin: '1em', position: 'absolute'}} onClick={setFalse}/>
+                    <Routes>
+                        <Route path='/about' element={<>About me</>}/>
+                        <Route path='/contact' element={<>Contact</>}/>
+                        <Route path='/' element={<>Home</>}/>
+                    </Routes>
+                </main>
             </div>
         </Router>
     );

@@ -1,28 +1,4 @@
 :root {
-    --primary-50: #f4faf3;
-    --primary-100: #e5f5e3;
-    --primary-200: #cce9c9;
-    --primary-300: #a3d79e;
-    --primary-400: #73bc6c;
-    --primary-500: #57b04f;
-    --primary-600: #3c8336;
-    --primary-700: #33672e;
-    --primary-800: #2b5328;
-    --primary-900: #254423;
-    --primary-950: #0e250e;
-
-    --secondary-50: #f6f7f6;
-    --secondary-100: #e3e5e2;
-    --secondary-200: #c8cbc4;
-    --secondary-300: #a5aa9e;
-    --secondary-400: #80877a;
-    --secondary-500: #5d6357;
-    --secondary-600: #50564b;
-    --secondary-700: #43473e;
-    --secondary-800: #383b34;
-    --secondary-900: #30332e;
-    --secondary-950: #191b18;
-
     --success-50: #f5faeb;
     --success-100: #e8f2d5;
     --success-200: #d3e7af;
@@ -103,4 +79,23 @@ body {
 
 div.app {
     display: flex;
+}
+
+.menu-button {
+    visibility: collapse;
+}
+
+@media (max-width: 900px) {
+    .menu-button {
+        visibility: visible;
+        align-self: flex-end;
+        padding: 0.5em;
+        margin-right: -1em;
+        border-radius: 50%;
+    }
+
+    .menu-button:hover {
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 }
