@@ -3,11 +3,11 @@ import '../styles/ThemeToggle.css';
 import {useDarkMode} from "usehooks-ts";
 
 function ThemeToggle() {
-    const { isDarkMode, toggle} = useDarkMode();
-    
+    const {isDarkMode, toggle} = useDarkMode();
+
     return (
         <button onClick={toggle} className="theme-toggle">
-            {isDarkMode ? <MdDarkMode/> : <MdLightMode/>}
+            {isDarkMode ? <MdDarkMode fill='white'/> : <MdLightMode fill='black'/>}
         </button>
     );
 }

@@ -7,7 +7,8 @@ import '../i18n';
 import {useTranslation} from "react-i18next";
 import {GrClose} from "react-icons/gr";
 import {AiFillHome} from 'react-icons/ai';
-import {useEffect, useState} from "react";
+import {useColorTheme} from "../hooks";
+import LanguageSwitch from "./LanguageSwitch";
 
 type Props = {
     collapsed: boolean;
@@ -18,24 +19,12 @@ function Sidebar({ collapsed, onClose }: Props) {
     const {t} = useTranslation();
     const {isDarkMode} = useDarkMode();
     const theme = isDarkMode ? 'dark' : 'light';
-    const [colorTheme, setColorTheme] = useState('base');
-    const [, updateState] = useState({});
+    const [colorTheme, updateTheme] = useColorTheme();
 
-    useEffect(() => {
-        switch (location.hash.split('/')[1]) {
-            case 'loic-dornel':
-                setColorTheme('ldor');
-                break;
-            case 'creeperstone72':
-                setColorTheme('cs72');
-                break;
-            case 'rooted-dm':
-                setColorTheme('rtdm');
-                break;
-            default:
-                setColorTheme('base');
-        }
-    }, [location.hash]);
+    const onLinkClicked = () => {
+        updateTheme();
+        onClose();
+    }
 
     return (
         <nav
@@ -43,12 +32,13 @@ function Sidebar({ collapsed, onClose }: Props) {
             style={{backgroundColor: `var(--primary-${colorTheme}-${(isDarkMode ? 700 : 300)})`}}
         >
             <div>
-                <GrClose className='menu-button' onClick={onClose} />
+                <GrClose className='menu-button' onClick={onClose} color={isDarkMode ? 'white' : 'black'} />
                 <div id='header' style={{display: 'flex', justifyContent: 'space-between'}}>
-                    <NavLink to='/' end onClick={() => updateState({})}>
-                        <AiFillHome />
+                    <NavLink to='/' end onClick={onLinkClicked}>
+                        <AiFillHome fill={isDarkMode ? 'white' : 'black'} />
                     </NavLink>
                     <ThemeToggle />
+                    <LanguageSwitch />
                 </div>
                 {Menu.map((section) => (
                     <div key={section.name}>
@@ -70,7 +60,7 @@ function Sidebar({ collapsed, onClose }: Props) {
                                             };
                                         }}
                                         end
-                                        onClick={() => updateState({})}
+                                        onClick={onLinkClicked}
                                     >
                                         {t(route.key)}
                                     </NavLink>
@@ -80,6 +70,7 @@ function Sidebar({ collapsed, onClose }: Props) {
                     </div>
                 ))}
             </div>
+            <span>&copy; CreeperStone72 2025</span>
         </nav>
     );
 }
