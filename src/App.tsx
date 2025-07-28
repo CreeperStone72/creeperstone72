@@ -2,6 +2,8 @@ import {HashRouter as Router, Route, Routes} from "react-router-dom";
 import {Sidebar} from "./components";
 import {useBoolean, useDarkMode} from "usehooks-ts";
 import {GrMenu} from 'react-icons/gr';
+import Menu from "./data/menu.json";
+import RoutesEl from "./routes";
 
 function App() {
     const {isDarkMode} = useDarkMode();
@@ -21,11 +23,17 @@ function App() {
                 <Sidebar collapsed={value} onClose={setTrue} />
 
                 <main {...{style}}>
-                    <GrMenu className='menu-button' style={{margin: '1em', position: 'absolute'}} onClick={setFalse}/>
+                    <GrMenu className='menu-button' onClick={setFalse}/>
                     <Routes>
-                        <Route path='/about' element={<>About me</>}/>
-                        <Route path='/contact' element={<>Contact</>}/>
-                        <Route path='/' element={<>Home</>}/>
+                        {Menu.map((section) => {
+                            return section.routes.map((route) => (
+                                <Route
+                                    key={`${section.root}${route.path}`}
+                                    path={`${section.root}${route.path}`}
+                                    element={RoutesEl[section.root][route.path]}
+                                />
+                            ))
+                        })}
                     </Routes>
                 </main>
             </div>

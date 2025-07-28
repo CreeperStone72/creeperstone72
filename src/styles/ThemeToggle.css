@@ -8,6 +8,7 @@ button.theme-toggle {
     background-color: transparent;
     border: none;
     border-radius: 50%;
+    transition: background-color 0.2s ease-in-out;
 }
 
 button.theme-toggle:hover {

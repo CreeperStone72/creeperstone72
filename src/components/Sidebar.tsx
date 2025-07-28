@@ -70,7 +70,7 @@ function Sidebar({ collapsed, onClose }: Props) {
                     </div>
                 ))}
             </div>
-            <span>&copy; CreeperStone72 2025</span>
+            <span style={{color: isDarkMode ? 'white' : 'black'}}>&copy; CreeperStone72 • 2025</span>
         </nav>
     );
 }

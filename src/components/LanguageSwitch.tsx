@@ -1,23 +1,41 @@
 import '../styles/LanguageSwitch.css';
 import {useTranslation} from "react-i18next";
+import {useBoolean} from "usehooks-ts";
 
 function LanguageSwitch() {
     const {i18n} = useTranslation();
+    const {value, toggle, setFalse} = useBoolean(false);
 
-    const handleLanguageChange = (e: any) => {
-        const newLang = (e.target as HTMLInputElement).value;
-        i18n.changeLanguage(newLang);
+    const languages: Map<string, string> = new Map<string, string>([
+        ['en', '🇬🇧'],
+        ['fr', '🇫🇷'],
+    ]);
+
+    const handleLanguageChange = (language: string) => {
+        i18n.changeLanguage(language);
+        setFalse();
     }
 
     return (
         <div id='language-switch'>
-            <select
-                value={i18n.language}
-                onChange={handleLanguageChange}
+            <div
+                id='select'
+                onClick={toggle}
+                style={{
+                    backgroundColor: value ? 'rgba(0, 0, 0, 0.5)' : 'transparent',
+                    borderTopLeftRadius: value ? '0.25em' : '50%',
+                    borderTopRightRadius: value ? '0.25em' : '50%',
+                    borderBottomLeftRadius: value ? '0' : '50%',
+                    borderBottomRightRadius: value ? '0' : '50%',
+                }}
             >
-                <option value='en'>🇬🇧</option>
-                <option value='fr'>🇫🇷</option>
-            </select>
+                {languages.get(i18n.language)}
+            </div>
+            <div id='options' style={{visibility: value ? 'visible' : 'collapse'}}>
+                {languages.entries().map(([language, icon]) => (
+                    <span key={language} onClick={() => handleLanguageChange(language)}>{icon}</span>
+                ))}
+            </div>
         </div>
     )
 }

@@ -1,27 +1,58 @@
 #language-switch {
     height: 100%;
     aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 0.25em;
     cursor: pointer;
     line-height: 1.1;
-    background-color: #fff;
-    background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
 }
 
-select {
-    appearance: none;
-    background-color: transparent;
-    border: none;
-    padding: 0 1em 0 0;
-    margin: 0;
+#select {
+    height: 100%;
     width: 100%;
-    font-family: inherit;
-    font-size: inherit;
-    cursor: inherit;
-    line-height: inherit;
-    outline: none;
+    font-size: 1.75em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    user-select: none;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: border-radius 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
-select::-ms-expand {
-    display: none;
+#select:hover {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    cursor: pointer;
+}
+
+#options {
+    position: absolute;
+    margin-top: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    font-size: 1.75em;
+    text-align: center;
+    border-top: 1px var(--info-500) solid;
+}
+
+#options span {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#options span:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+#options span:last-child {
+    border-radius: 0 0 0.25em 0.25em;
 }

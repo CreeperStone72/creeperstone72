@@ -24,6 +24,7 @@ nav.sidebar #header a {
     background-color: transparent;
     border: none;
     border-radius: 50%;
+    transition: background-color 0.2s ease-in-out;
 }
 
 nav.sidebar #header a:hover {
@@ -56,10 +57,13 @@ nav.sidebar a {
         width: calc(100vw - 4em);
         position: absolute;
         z-index: 99;
+        transition: left 0.2s ease-in-out;
+        left: 0;
     }
 
     nav.sidebar.collapsed, nav.sidebar.collapsed * {
-        visibility: collapse;
-        display: none;
+        /*visibility: collapse;*/
+        /*display: none;*/
+        left: -100%;
     }
 }
